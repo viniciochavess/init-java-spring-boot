@@ -2,8 +2,10 @@ package com.firstproject.test.primeiroprojeto;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
+@ComponentScan(basePackages = "com.firstproject.test.Controller")
 public class PrimeiroprojetoApplication {
 
 	public static void main(String[] args) {
